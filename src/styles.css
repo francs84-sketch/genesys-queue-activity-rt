@@ -1,0 +1,8 @@
+body { font-family: system-ui, sans-serif; margin: 0; padding: 16px; }
+.card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; }
+.kpi { min-width: 160px; padding: 10px; border: 1px solid #eee; border-radius: 12px; }
+small { color: #555; }
+button { padding: 10px 12px; border-radius: 10px; border: 1px solid #ddd; background: white; cursor: pointer; }
+button:disabled { opacity: 0.5; cursor: default; }
+input { padding: 8px; border-radius: 10px; border: 1px solid #ddd; }
