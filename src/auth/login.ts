@@ -6,7 +6,8 @@ const REDIRECT_URI = (import.meta as any).env.VITE_GC_REDIRECT_URI as string;
 
 function loginHost() {
   // es: login.eu-west-1.pure.cloud
-  return `https://login.${REGION}.pure.cloud`;
+  return 'https://login.mypurecloud.ie';
+ // return `https://login.${REGION}.pure.cloud`;
 }
 
 export async function startLogin() {
