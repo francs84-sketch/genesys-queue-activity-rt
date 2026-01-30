@@ -152,6 +152,11 @@ export default function App() {
             Queues: {queueIds.join(", ") || "Nessuna"}
           </small>
         </p>
+        <p>
+    <small>
+      Redirect URI: {(import.meta as any).env.VITE_GC_REDIRECT_URI}
+    </small>
+  </p>
       </div>
 
       {queueIds.map(queueId => {
